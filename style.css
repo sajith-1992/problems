@@ -1,3 +1,43 @@
-#hello{
-    color: black;
+.container{
+    width: 233px;
+    height: 342px;
+    background-color: grey;
+}
+.screen{
+    width: 220px;
+    height: 100px;
+    pointer-events: none;
+    background-color: grey;
+
+    
+}
+
+
+.first_row{
+    padding: 10px;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+}
+.second_row{
+    padding: 10px;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+}
+.third_row{
+    padding: 10px;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+}
+.fourth_row{
+    padding: 10px;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+}
+.btn{
+   width:5px ;
+   height: 25px; 
 }

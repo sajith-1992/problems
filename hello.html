@@ -7,32 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="background-color: red;">hai guys this is sajith</h1>
-    <p class="hello">hello htis klj lsdjfkljsd ajjasdflkjajsdfjlaj ldsjflk</p>
-    <p class="hello">hainthikn  sdajflkjasdlfu jnsdjfjlasdf </p>
-    <h2 id="hello">hello this is sajiht</h2>
-    <h2 id="helo1 ">hai this is sajth iam good at  all i will get it ajob with good salary</h2>
-    <input type="text" id="imp">
-    <h1 id="in"></h1>
-    <button onclick="show()"> click me</button>
-
-    <script>
-        function show(){
-           
-            var a = 10
-            var b = 12
-            var sum = a + b
-           console.log(sum)
-
-
-           var arr =[10,"mango","apple"]
-           console.log(arr[1])
-           var text = document.getElementById("imp").value
-           document.getElementById("in").innerHTML = text
-           alert(text)
-
+   <div class="container">
+   <div  class = screen>
+    <div>
+        <input type="text" id="screen_value" >
+    </div>
+   </div>
+    <div >
+        <div class="first_row">
+        <button class="btn" onclick="show(7)">7</button>
+        <button class="btn" onclick="show(8)">8</button>
+        <button class="btn" onclick="show(9)">9</button>
+        <button class="btn">+</button>
         
-        }
-    </script>
+        </div>
+        <br>
+        <div class="second_row">
+        <button class="btn" onclick="show(4)">4</button>
+        <button class="btn" onclick="show(5)">5</button>
+        <button class="btn" onclick="show(6)">6</button>
+        <button class="btn" onclick="minus()">-</button>
+        </div>
+        <br>
+        <div class="third_row">
+        <button class="btn"onclick="show(3)">3</button>
+        <button class="btn" onclick="show(2)">2</button>
+        <button class="btn" onclick="show(1)">1</button>
+        <button class="btn">/</button>
+        </div>
+
+        <div class="fourth_row">
+            <button class="btn" onclick="show()">*</button>
+            <button class="btn"  onclick="show()">C</button>
+            <button class="btn" onclick="show()"></button>
+            <button class="btn">/</button>
+            </div>
+   </div>
+   </div>
+   <script src="script.js"></script>
+
 </body>
 </html>
