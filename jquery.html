@@ -7,11 +7,15 @@
 </head>
 <body>
     <button id="btn">clickme</button>
+    <div style="width:300px; height: 200px;  " id="box">
+
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
  <script>
  $(document).ready(function(){
     $("#btn").click(function(){
-        alert("hai")
+      $("#box").toggle("background-color", "red")
     })
     $("#btn").hover(function(){
         $(this).css({"background":"red"})
