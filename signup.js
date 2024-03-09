@@ -13,6 +13,15 @@ $(document).ready(function(){
            }
 
 
+        },
+        messages:{
+            email:{
+                required : "Please enter a valid email address"
+            },
+            psw:{
+                required:"This field cannot be empty",
+                minlength:"There should be a minimum of 4 characters"
+            }
         }
 
         
